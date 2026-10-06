@@ -28,12 +28,14 @@ sources:
 
 # Current state (RouterOS up to 7.24.5)
 
-**How to read this bundle.** The body is a conversion of MikroTik's RouterOS
-documentation PDF of **2026-05-26** (see [Provenance](provenance.md)). RouterOS
-changes incrementally, so the great majority of that content — command
-reference, configuration procedures, concepts — **is still current**; it is the
-newer behaviour and additions that need this page. This doc is the *now*: the
-version picture, the security position, the feature areas that have moved since,
+**How to read this bundle.** Two layers: **`manual/` is the current manual**
+(<https://manual.mikrotik.com/>, ingested 2026-10-06, 1473 pages, tables intact)
+and the **chapter directories are the dated base** — a conversion of MikroTik's
+RouterOS documentation PDF of **2026-05-26** (see [Provenance](provenance.md)).
+RouterOS changes incrementally, so the base remains accurate for the great
+majority of its content — command reference, procedures, concepts — and it is
+the newer behaviour and additions that need this page. This doc is the *now*:
+the version picture, the security position, the feature areas that have moved,
 and what is new in each release. It is accurate as of **2026-10-06**.
 
 ## Versions

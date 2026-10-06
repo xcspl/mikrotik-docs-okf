@@ -1,0 +1,15 @@
+---
+type: Reference
+title: "BGP"
+description: "This page introduces BGP (Border Gateway Protocol) configuration in MikroTik RouterOS, covering basic setup and routing concepts for establishing external network connectivity using BGP"
+timestamp: '2026-10-06'
+status: active
+tags: [routeros, mikrotik, manual, routing-and-networking-protocols]
+resource: https://manual.mikrotik.com/docs/user-guides/routing-and-networking-protocols/unicast/bgp.md
+sources:
+  - resource: https://manual.mikrotik.com/docs/user-guides/routing-and-networking-protocols/unicast/bgp.md
+---
+
+# BGP
+
+<DocCardList />

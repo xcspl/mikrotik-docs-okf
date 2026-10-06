@@ -11,23 +11,30 @@ handling:
 
 # MikroTik RouterOS documentation
 
-The MikroTik RouterOS manual as an OKF bundle.
+The MikroTik RouterOS manual as an OKF bundle, in two layers:
 
-**Base: MikroTik's RouterOS documentation of 2026-05-26** — the frozen legacy
-`help.mikrotik.com` export (from [page 328059](https://help.mikrotik.com/docs/spaces/ROS/pages/328059/RouterOS) →
-MikroTik's Box share *doc_export*) — which remains current for the great majority
-of RouterOS (command reference, procedures, concepts). Base docs are stamped
-`timestamp: '2026-05-26'`, the source's capture date. Everything added or changed
-since is carried in [Current state](current-state.md) through **7.24.5**; the
-live, versioned manual is <https://manual.mikrotik.com/>. Conversion caveats are
-in [Provenance and known limits](provenance.md).
+- **`manual/` — the current manual** from <https://manual.mikrotik.com/> as of
+  **2026-10-06**: one `Reference` doc per page (**1473**), grouped by the
+  manual's own menu, tables intact. This is the authoritative, current layer.
+- **The chapter directories — the dated base**, converted from MikroTik's
+  RouterOS documentation of **2026-05-26** (the frozen legacy
+  `help.mikrotik.com` export; those docs are stamped `timestamp: '2026-05-26'`).
+  Still accurate for most concepts and procedures, but anydoc flattened some of
+  its tables.
+
+Conversion caveats: [Provenance and known limits](provenance.md). What changed
+release by release: [Current state](current-state.md).
+
+# Current manual (authoritative)
+
+* [Current MikroTik RouterOS manual](manual/index.md) - The manual from manual.mikrotik.com as of 2026-10-06, one Reference doc per page (1473), grouped by the manual's own menu, with intact tables.
 
 # About
 
 * [Provenance and known limits](provenance.md) - What the base export is, why its docs are dated 2026-05-26, and the anydoc table-collapse / image-read caveats.
 * [Current state (RouterOS up to 7.24.5)](current-state.md) - The now: versions, the September 2026 security advisories, what each release added (BGP, MLAG, the app store, ACME, device-mode), and the state of containers, ZeroTier, WireGuard, IPv6 and OSPFv3.
 
-# Chapters
+# Dated base — chapters (2026-05-26 export)
 
 * [1.1 Getting started](11-getting-started/index.md) - 25 sections.
 * [1.2 IPv4 and IPv6 Fundamentals](12-ipv4-and-ipv6-fundamentals/index.md) - 6 sections.

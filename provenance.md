@@ -54,7 +54,9 @@ a warning that the content is wrong:
   release by release, through **7.24.5** — including BGP, MLAG, the container app
   store, ACME, device-mode, ZeroTier, WireGuard, IPv6 and OSPFv3.
 - MikroTik's live manual (restructured and versioned) is
-  **<https://manual.mikrotik.com/>**.
+  **<https://manual.mikrotik.com/>** — and it is **ingested in this bundle** as
+  the `manual/` layer (as of 2026-10-06, 1473 pages, tables intact). Prefer
+  `manual/` over the chapter directories whenever they disagree.
 
 ## Fidelity caveats from the conversion
 
