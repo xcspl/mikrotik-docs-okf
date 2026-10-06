@@ -2,7 +2,7 @@
 type: Reference
 title: "Routing Protocol Overview"
 description: "The simulated upstream peer is a CHR router running ROSv6 with a copy of the global IPv4 routing table (585K routes loaded from MRT dump)."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

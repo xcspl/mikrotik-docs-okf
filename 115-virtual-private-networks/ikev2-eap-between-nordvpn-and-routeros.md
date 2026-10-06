@@ -2,7 +2,7 @@
 type: Reference
 title: "IKEv2 EAP between NordVPN and RouterOS"
 description: "Starting from RouterOS v6.45, it is possible to establish IKEv2 secured tunnel to NordVPN servers using EAP authentication. This manual page explains how to configure it."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

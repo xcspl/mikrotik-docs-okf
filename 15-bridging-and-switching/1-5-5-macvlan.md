@@ -2,7 +2,7 @@
 type: Reference
 title: "MACVLAN"
 description: "A MACVLAN interface can only receive broadcast packets, packets addressed to its own MAC address, and a limited number of multicast addresses. If the physical interface has a VLAN configured, the MACVLAN interface cannot."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

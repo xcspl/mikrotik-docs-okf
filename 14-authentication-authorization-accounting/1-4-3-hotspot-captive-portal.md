@@ -2,7 +2,7 @@
 type: Reference
 title: "HotSpot-Captive portal"
 description: "The MikroTik HotSpot Gateway provides authentication for clients before access to public networks."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "General Properties"
 description: "Every RouterBOARD with a miniPCI-e slot which supports LTE modems can also be used as a LoRaWAN gateway by installing R11e-LoRa8 or R11e- LoRa9 card. Both UDP and LNS (starting with v7.12rc1 testing version) protocols ar."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

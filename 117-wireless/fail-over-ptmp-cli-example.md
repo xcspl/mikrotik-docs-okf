@@ -2,7 +2,7 @@
 type: Reference
 title: "Fail-over PtMP CLI example"
 description: "All previously explained steps are identical to Bridge and Station devices. When configuring wireless interface different modes needs to be used."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

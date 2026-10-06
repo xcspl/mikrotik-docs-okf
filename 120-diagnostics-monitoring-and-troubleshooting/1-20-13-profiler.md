@@ -2,7 +2,7 @@
 type: Reference
 title: "Profiler"
 description: "The profiler tool shows CPU usage for each process running in RouterOS. It helps to identify which process is using most of the CPU resources. Watch our video about this feature."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

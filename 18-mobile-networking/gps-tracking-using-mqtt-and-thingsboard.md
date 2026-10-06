@@ -2,7 +2,7 @@
 type: Reference
 title: "GPS-tracking using MQTT and ThingsBoard"
 description: "Many RouterOS devices have GPS support. It allows RouterOS to determine the precise location of its GPS receiver. GPS coordinates will indicate the latitude and the longitude values (among other parameters) of the curren."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

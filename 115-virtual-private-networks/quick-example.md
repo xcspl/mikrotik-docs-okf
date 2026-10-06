@@ -2,7 +2,7 @@
 type: Reference
 title: "Quick Example"
 description: "To establish an L2TP Ether tunnel, the L2TP Ether interface must be created on the client side, while the L2TP server must be enabled on the remote (server) side. Once both sides are configured correctly, a dynamic inter."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

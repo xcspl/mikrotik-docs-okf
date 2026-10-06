@@ -2,7 +2,7 @@
 type: Reference
 title: "Packages"
 description: "RouterOS features are separated in \"packages\", which are files with .npk extension. Most of the features are combined in one routeros package, but some features are separate. Installing the corresponding NPK package can ."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

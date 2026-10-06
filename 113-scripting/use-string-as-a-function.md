@@ -2,7 +2,7 @@
 type: Reference
 title: "Use string as a function"
 description: "This script checks if the download on an interface is more than 512kbps if true then the queue is added to limit the speed to 256kbps."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

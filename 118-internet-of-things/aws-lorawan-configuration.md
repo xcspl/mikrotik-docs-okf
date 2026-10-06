@@ -2,7 +2,7 @@
 type: Reference
 title: "AWS LoRaWAN configuration"
 description: "This scenario will work starting with RouterOS version 7.14beta8."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

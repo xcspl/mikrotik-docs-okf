@@ -2,7 +2,7 @@
 type: Reference
 title: "WinBox"
 description: "WinBox is a small utility that allows the administration of MikroTik RouterOS using a fast and simple GUI. It is a native Win32/Win64 binary but can be run on Linux and macOS (OSX) using Wine. All WinBox interface functi."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

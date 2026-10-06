@@ -2,7 +2,7 @@
 type: Reference
 title: "Supout.rif"
 description: "This file contains all your router's configuration, logs, and some other details that will help MikroTik Support to solve your issue. The file does not contain sensitive information or router passwords."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

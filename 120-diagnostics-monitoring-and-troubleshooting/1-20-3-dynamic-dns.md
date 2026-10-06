@@ -2,7 +2,7 @@
 type: Reference
 title: "Dynamic DNS"
 description: "Dynamic DNS Update Tool gives a way to keep the domain name pointing to a dynamic IP address. It works by sending a domain name system update requests to the name server, which has a zone to be updated. Secure DNS update."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

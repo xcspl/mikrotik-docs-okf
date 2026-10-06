@@ -2,7 +2,7 @@
 type: Reference
 title: "Securing your router"
 description: "The following steps are a recommendation on how to additionally protect your device with already configured strong firewall rules."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

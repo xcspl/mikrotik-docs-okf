@@ -2,7 +2,7 @@
 type: Reference
 title: "NetFlow analysis with Elasticsearch"
 description: "This guide will not use Logstash as a part of analyzing NetFlow data, it has been replaced by a Fleet Server."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "Upgrading and installation"
 description: "MikroTik devices are preinstalled with RouterOS, so installation is usually not needed, except in the case where installing RouterOS on a bare metal x86 PC or a virtual machine via CHR images. The upgrade procedure on al."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

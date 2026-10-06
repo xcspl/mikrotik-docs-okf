@@ -2,7 +2,7 @@
 type: Reference
 title: "L3 Hardware Offloading"
 description: "Layer 3 Hardware Offloading (L3HW, otherwise known as IP switching or HW routing) allows offloading some router features onto the switch chip. This allows reaching wire speeds when routing packets, which would simply not."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

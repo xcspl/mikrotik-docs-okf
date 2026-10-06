@@ -2,7 +2,7 @@
 type: Reference
 title: "PPPoE"
 description: "PPPoE provides the ability to connect a network of hosts over a simple bridging access device to a remote Access Concentrator."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

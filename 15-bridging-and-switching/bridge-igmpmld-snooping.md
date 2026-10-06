@@ -2,7 +2,7 @@
 type: Reference
 title: "Bridge IGMP/MLD snooping"
 description: "Source-specific multicast forwarding is not supported for IGMP v3 and MLD v2."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

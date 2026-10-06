@@ -2,7 +2,7 @@
 type: Reference
 title: "Moving from ROSv6 to v7 with examples"
 description: "By default, all routes are added to the \"main\" routing table as it was before. From a configuration point of view, the biggest differences are routing table limit increase, routing table monitoring differences, and how r."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "DLNA Media server"
 description: "DLNA is a set of protocols that enables networked devices to share digital media, including videos, photos, and music. Central to the operation of DLNA is the UPnP (Universal Plug and Play) architecture, which facilitate."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

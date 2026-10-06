@@ -2,7 +2,7 @@
 type: Reference
 title: "IP Settings"
 description: "Several IPv4 and IPv6 related kernel and system-wide parameters are configurable."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

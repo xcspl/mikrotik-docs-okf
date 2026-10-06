@@ -2,7 +2,7 @@
 type: Reference
 title: "Recovered pages (OCR-flagged)"
 description: "The 20 pages of the RouterOS manual that anydoc flagged as needing OCR: the page images plus their content read from the images, since anydoc refused them."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, appendix, ocr, source-pages]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

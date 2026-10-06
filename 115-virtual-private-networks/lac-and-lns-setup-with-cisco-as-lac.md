@@ -2,7 +2,7 @@
 type: Reference
 title: "LAC and LNS setup with Cisco as LAC"
 description: "LAC/LNS setup or otherwise known as Virtual Private DialUp Network (VPDN) allows long-distance point-to-point connection between remote dial-up users and private networks."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

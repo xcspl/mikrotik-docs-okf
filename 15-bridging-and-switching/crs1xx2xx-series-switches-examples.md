@@ -2,7 +2,7 @@
 type: Reference
 title: "CRS1xx/2xx series switches examples"
 description: "Basic use cases and configuration examples for Cloud Router Switch features."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

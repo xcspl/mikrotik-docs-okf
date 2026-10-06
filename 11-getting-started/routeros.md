@@ -2,7 +2,7 @@
 type: Reference
 title: "RouterOS"
 description: "This webpage contains the official RouterOS user manual. RouterOS is For RB260, CSS326, CRS3xx, CSS610 and GPEN21 devices running the operating system of MikroTik devices. Documentation applies for the SwOS, see the SwOS."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "Device-mode"
 description: "The device-mode is a feature which sets specific limitations on a device, or limits access to specific configuration options. It helps to protect your router and network from attackers who might gain unauthorized and use."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

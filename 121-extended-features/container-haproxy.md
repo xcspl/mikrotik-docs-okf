@@ -2,7 +2,7 @@
 type: Reference
 title: "Container-HAProxy"
 description: "HAProxy is a powerful reverse proxy that can be run as a Container. It is highly recommended to not expose Containers to users directly, but rather use a reverse HTTP/HTTPS proxy between your users and your Containers."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

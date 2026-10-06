@@ -2,7 +2,7 @@
 type: Reference
 title: "REMOTE-ADDRESS MODE LOCAL-PATH REMOTE-PATH STATUS 0 D 192.168.88.1 download RAID/ /ipv6route.txt.rsc in sync"
 description: "RouterOS manual, section Hardware — REMOTE-ADDRESS MODE LOCAL-PATH REMOTE-PATH STATUS 0 D 192.168.88.1 download RAID/ /ipv6route.txt.rsc in sync."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

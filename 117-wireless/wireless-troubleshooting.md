@@ -2,7 +2,7 @@
 type: Reference
 title: "Wireless Troubleshooting"
 description: "This will help you understand and fix wireless problems with ease and with less interaction with the support team."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

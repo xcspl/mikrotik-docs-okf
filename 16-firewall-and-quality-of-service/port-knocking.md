@@ -2,7 +2,7 @@
 type: Reference
 title: "Port knocking"
 description: "All available public IP addresses are constantly being port scanned by bots and services like shodan.io and anyone can use this information to perform brute-force attacks and execute any known exploits. Port knocking is ."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

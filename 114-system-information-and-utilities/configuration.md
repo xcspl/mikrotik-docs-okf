@@ -2,7 +2,7 @@
 type: Reference
 title: "Configuration"
 description: "dst-active (yes or no; read-only property): This property has the value yes while daylight saving time of the current time zone is active. gmt-offset ( + - HH:MM-offset in hours and minutes; read-only property): This is ."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

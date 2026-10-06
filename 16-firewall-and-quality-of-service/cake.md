@@ -2,7 +2,7 @@
 type: Reference
 title: "CAKE"
 description: "This allows you to manually set the bandwidth limit for the CAKE shaper. For instance, if you're aware that your ISP provides you with a 100Mbps connection, you could set the rate to 100Mbps to prevent CAKE from trying t."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

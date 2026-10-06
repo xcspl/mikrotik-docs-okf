@@ -2,7 +2,7 @@
 type: Reference
 title: "Interface Lists"
 description: "This menu contains information about all interface lists available on the router. There are four predefined lists-all (contains all interfaces), none (contain s no interfaces), dynamic (contains dynamic interfaces), and ."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

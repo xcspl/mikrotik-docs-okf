@@ -2,7 +2,7 @@
 type: Reference
 title: "Queue Burst"
 description: "Burst is a feature that allows satisfying queue requirements for additional bandwidth even if the required rate is bigger than MIR (max-limit) for a limited period of time."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

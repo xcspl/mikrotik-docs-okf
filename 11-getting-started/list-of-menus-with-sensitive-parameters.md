@@ -2,7 +2,7 @@
 type: Reference
 title: "List of menus with sensitive parameters"
 description: "Below you can find a list of menus where sensitive (shown only when show-sensitive parameter is used or alternatively hidden when \"Hide password\" is enabled in WinBox settings) parameters can be configured. For more deta."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

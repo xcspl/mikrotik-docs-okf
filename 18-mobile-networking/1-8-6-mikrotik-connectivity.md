@@ -2,7 +2,7 @@
 type: Reference
 title: "MikroTik Connectivity"
 description: "eSIM profiles remain on the device they were installed on and do not expire. Only the subscription expires based on the selected plan, while the profile can be reactivated later by purchasing a new subscription."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

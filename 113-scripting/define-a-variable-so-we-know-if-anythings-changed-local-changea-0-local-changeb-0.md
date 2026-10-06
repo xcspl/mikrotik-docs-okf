@@ -2,7 +2,7 @@
 type: Reference
 title: "Define a variable so we know if anything's changed. :local changea 0; :local changeb 0;"
 description: "RouterOS manual, section Scripting — Define a variable so we know if anything's changed. :local changea 0; :local changeb 0;."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

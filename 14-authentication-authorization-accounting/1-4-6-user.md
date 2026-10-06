@@ -2,7 +2,7 @@
 type: Reference
 title: "User"
 description: "MikroTik RouterOS router user facility manages the users connecting the router from any of the Management tools. The users are authenticated using either a local database or a designated RADIUS server. Each user is assig."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "Queue size"
 description: "The maximum permissible queue size could be specified as a maximum memory limit, but a lot of algorithms simplify it as a maximum number of packets, so the actual memory used varies depending on the size of the packets."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

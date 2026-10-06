@@ -2,7 +2,7 @@
 type: Reference
 title: "IPv6 PD over PPP"
 description: "This example demonstrates how to set up PPPoE server and client to use IPv6 Prefix Delegation."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

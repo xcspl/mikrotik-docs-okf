@@ -2,7 +2,7 @@
 type: Reference
 title: "PoE-Out"
 description: "This page explains using the PoE-Out (Power over Ethernet) feature available on MikroTik devices equipped with at least one PoE-Out interface. MikroTik devices utilize an RJ45 mode B pinout for power delivery, with PoE s."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

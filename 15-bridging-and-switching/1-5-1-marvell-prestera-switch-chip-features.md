@@ -2,7 +2,7 @@
 type: Reference
 title: "Marvell Prestera switch chip features"
 description: "This article applies only to MikroTik devices with Marvell Prestera switch, not to CRS1xx/CRS2xx series switches."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

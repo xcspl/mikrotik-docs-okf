@@ -2,7 +2,7 @@
 type: Reference
 title: "Socksify"
 description: "Socksify is a service that allows the router to send specific traffic through a SOCKS proxy server, even if the application itself does not natively support proxy connections. It intercepts network calls and redirects th."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

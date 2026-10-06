@@ -2,7 +2,7 @@
 type: Reference
 title: "VPLS Control Word"
 description: "VPLS allows remote sites to share an Ethernet broadcast domain by connecting sites through pseudo-wires(PW) tunnels over a packet switching network (PSN). Since VPLS encapsulation adds additional overhead, each interface."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

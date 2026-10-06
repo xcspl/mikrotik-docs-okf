@@ -2,7 +2,7 @@
 type: Reference
 title: "PtP GUI example"
 description: "This example shows how to configure transparent wireless bridge in GUI from one W60G device to another."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

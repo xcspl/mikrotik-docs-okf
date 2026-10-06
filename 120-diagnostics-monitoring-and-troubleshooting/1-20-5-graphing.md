@@ -2,7 +2,7 @@
 type: Reference
 title: "Graphing"
 description: "Graphing is a tool to monitor various RouterOS parameters over time and put collected data in graphs. Watch our video about this feature."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

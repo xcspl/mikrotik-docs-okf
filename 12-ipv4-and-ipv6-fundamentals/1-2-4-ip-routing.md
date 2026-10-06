@@ -2,7 +2,7 @@
 type: Reference
 title: "IP Routing"
 description: "Routing is the process of selecting paths across the networks to move packets from one host to another."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

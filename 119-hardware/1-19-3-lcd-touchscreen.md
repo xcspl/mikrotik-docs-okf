@@ -2,7 +2,7 @@
 type: Reference
 title: "LCD Touchscreen"
 description: "RouterBOARD 2011U and CCR series devices are equipped with a resistive touchscreen, for quick access to device stats and simple configuration options. Touchscreen requires pressure against the surface to register a touch."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

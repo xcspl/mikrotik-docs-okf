@@ -2,7 +2,7 @@
 type: Reference
 title: "User Manager"
 description: "User Manager is one of the RouterOS features, that is limited by the RouterOS license level. Depending on the License level, number of active sessions will be limited, including multiple connections per user (not unique ."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

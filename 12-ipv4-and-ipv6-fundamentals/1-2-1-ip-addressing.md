@@ -2,7 +2,7 @@
 type: Reference
 title: "IP Addressing"
 description: "IP addresses serve for general host identification purposes in IP networks (RFC 791). A typical (IPv4) address consists of four octets. For proper addressing the router also needs the network mask value, id est which bit."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

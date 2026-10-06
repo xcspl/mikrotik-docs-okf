@@ -2,7 +2,7 @@
 type: Reference
 title: "Health"
 description: "Hardware that supports monitoring will display different information about hardware status, like temperature, voltage, current, fan-speed, etc."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

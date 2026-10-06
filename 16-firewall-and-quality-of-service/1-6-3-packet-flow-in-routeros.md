@@ -2,7 +2,7 @@
 type: Reference
 title: "Packet Flow in RouterOS"
 description: "RouterOS packet flow diagram and flow examples will try to answer these questions."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

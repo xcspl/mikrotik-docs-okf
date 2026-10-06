@@ -2,7 +2,7 @@
 type: Reference
 title: "CHR Vultr installation"
 description: "Vultr has more than two dozen data center locations where you can choose to deploy MikroTik CHR for the best throughput and latency. Follow these steps to install MikroTik CHR at Vultr."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "Command Line Interface"
 description: "Console login options enable or disable various console features like color, terminal detection, and many other."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

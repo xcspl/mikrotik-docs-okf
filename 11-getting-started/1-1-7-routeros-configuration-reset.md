@@ -2,7 +2,7 @@
 type: Reference
 title: "RouterOS configuration reset"
 description: "Resetting the RouterOS configuration Hold this button until the LED light starts flashing, and release the button to reset RouterOS configuration to default."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

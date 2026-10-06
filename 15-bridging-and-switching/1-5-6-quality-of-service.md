@@ -2,7 +2,7 @@
 type: Reference
 title: "Quality of Service"
 description: "This document defines Quality of Service (QoS) usage in RouterOS based on Marvell Prestera switch chips."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

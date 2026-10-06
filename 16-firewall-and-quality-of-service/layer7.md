@@ -2,7 +2,7 @@
 type: Reference
 title: "Layer7"
 description: "Layer7-protocol is a method of searching for patterns in ICMP/TCP/UDP streams."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

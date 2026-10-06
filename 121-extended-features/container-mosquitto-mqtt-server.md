@@ -2,7 +2,7 @@
 type: Reference
 title: "Container-mosquitto MQTT server"
 description: "In this guide, we will showcase how to install a basic MQTT broker (or in other words, server) called eclipse-mosquitto. MQTT protocol is a very popular choice, especially in IoT topologies. It is an open OASIS and ISO s."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

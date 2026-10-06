@@ -2,7 +2,7 @@
 type: Reference
 title: "Step by step installation"
 description: "LtAP LTE kit will be used as example in this section."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

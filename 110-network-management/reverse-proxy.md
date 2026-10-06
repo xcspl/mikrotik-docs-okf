@@ -2,7 +2,7 @@
 type: Reference
 title: "Reverse Proxy"
 description: "Reverse proxy is a service that allows the router to send HTTPS traffic to servers or to RouterOS containers/apps when \"use-https\" parameter is enabled in app settings, behind the router using simple URL, instead of IP a."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

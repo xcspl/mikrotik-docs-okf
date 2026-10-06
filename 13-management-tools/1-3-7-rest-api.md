@@ -2,7 +2,7 @@
 type: Reference
 title: "REST API"
 description: "The term \"REST API\" generally refers to source-oriented URLs. an API accessed via HTTP protocol at a predefined set of re Starting from RouterOS v7.1beta4, it is implemented as a JSON wrapper interface of the console API."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

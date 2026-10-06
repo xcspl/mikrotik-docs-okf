@@ -2,7 +2,7 @@
 type: Reference
 title: "Kaa IoT setup"
 description: "MQTT and HTTP are among the most popular protocols that are used for transferring all kinds of data. Both protocols are heavily utilized in different IoT setups, and they both are supported by RouterOS."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

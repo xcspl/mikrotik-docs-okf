@@ -2,7 +2,7 @@
 type: Reference
 title: "Traceroute"
 description: "Traceroute displays the list of the routers that packet travels through to get to a remote host. The traceroute or tracepath tool is available on practically all Unix-like operating systems and tracert on Microsoft Windo."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

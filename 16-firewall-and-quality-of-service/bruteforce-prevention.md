@@ -2,7 +2,7 @@
 type: Reference
 title: "Bruteforce prevention"
 description: "Here is an example of how to defend against bruteforce attacks on an SSH port. Please note, that ssh allows 3 login attempts per connection, and the address lists are not cleared upon a successful login, so it is possibl."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

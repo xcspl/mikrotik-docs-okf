@@ -2,7 +2,7 @@
 type: Reference
 title: "Communication with MikroTik Cloud/Servers"
 description: "RouterOS manual, section Network Management — Communication with MikroTik Cloud/Servers."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "VRRP Configuration Examples"
 description: "It is recommended to use the same version of RouterOS for all devices with the same VRID used to implement VRRP."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

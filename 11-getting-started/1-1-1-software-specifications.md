@@ -2,7 +2,7 @@
 type: Reference
 title: "Software Specifications"
 description: "MikroTik made devices: RouterOS is compatible with MikroTik hardware it comes preinstalled on. Even MikroTik devices that are no longer manufactured, can run the latest RouterOS versions and will receive software updates."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "Resource"
 description: "The general resource menu shows overall resource usage and router statistics like uptime, memory usage, disk usage, version, etc."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

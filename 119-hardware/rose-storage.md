@@ -2,7 +2,7 @@
 type: Reference
 title: "ROSE-storage"
 description: "ROSE (RouterOS Enterprise) package adds data center functionality to RouterOS-for supporting disk monitoring, improved formatting with BTRFS and XFS file systems, RAIDs, rsync, iSCSI, NVMe over TCP, NFS. This functionali."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

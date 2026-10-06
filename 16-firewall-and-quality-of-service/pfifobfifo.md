@@ -2,7 +2,7 @@
 type: Reference
 title: "PFIFO,BFIFO"
 description: "When packets enter the queue, they are placed at the end (tail) of the queue. As space becomes available for transmission, the packets at the front (head) of the queue are transmitted first. If the queue is full when a p."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

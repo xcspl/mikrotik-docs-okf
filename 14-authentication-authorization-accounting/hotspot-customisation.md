@@ -2,7 +2,7 @@
 type: Reference
 title: "Hotspot customisation"
 description: "You can create a completely different set of servlet pages for each HotSpot server you have, specifying the directory in the \"html-override-directory\" property of a HotSpot server profile /ip hotspot profile. The default."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

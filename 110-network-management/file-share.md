@@ -2,7 +2,7 @@
 type: Reference
 title: "File share"
 description: "File share function allows you to use your routers external storage to share files with anyone on the internet. Simply attach a USB, nVME or any supported drive to your device, and then add whole directory paths to the f."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

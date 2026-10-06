@@ -2,7 +2,7 @@
 type: Reference
 title: "IPv6 Neighbor Discovery"
 description: "RouterOS has IPv6 Neighbor Discovery and stateless address autoconfiguration support using Router Advertisement Daemon (RADVD)."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

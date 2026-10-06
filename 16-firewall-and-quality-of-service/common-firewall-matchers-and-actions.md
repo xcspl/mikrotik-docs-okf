@@ -2,7 +2,7 @@
 type: Reference
 title: "Common Firewall Matchers and Actions"
 description: "log (yes no; Default: no) Add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip: port-dst-ip:port, and length of the packet. Allows to log packets even if a."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

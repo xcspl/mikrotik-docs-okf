@@ -2,7 +2,7 @@
 type: Reference
 title: "RouterOS license key levels"
 description: "After installation RouterOS runs in trial mode. You have 24 hours to register for Level 1 (Free demo) or purchase a Level 4,5 or 6 license and paste a valid key."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

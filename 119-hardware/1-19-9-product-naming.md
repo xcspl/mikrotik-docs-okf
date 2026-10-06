@@ -2,7 +2,7 @@
 type: Reference
 title: "Product Naming"
 description: "MikroTik product naming can be confusing at first glance, but all the product codes have a logical explanation and follow a code."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "IPv4 and IPv6 Fundamentals"
 description: "Computer networks consist of many different components and protocols working together. To understand the concept of how node to node communication happens, let's get familiar to the OSI model and TCP/IP model. Both model."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

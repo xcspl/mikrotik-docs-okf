@@ -2,7 +2,7 @@
 type: Reference
 title: "Old device /disk eject nvme1 /disk eject nvme2 /disk eject nvme3 /disk eject nvme4"
 description: "Finally, you can remove the disks from the \"old\" device and insert them in the assigned slots in the \"new\" one. RouterOS will automatically detect a RAID superblock and mount the array without any additional input."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

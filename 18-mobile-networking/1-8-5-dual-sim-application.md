@@ -2,7 +2,7 @@
 type: Reference
 title: "Dual SIM Application"
 description: "The first script example shows how to switch between SIM slots in case mobile roaming is detected for LtAP mini devices. This could be useful for mobile vehicle applications, where cars, buses or trains could drive abroa."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

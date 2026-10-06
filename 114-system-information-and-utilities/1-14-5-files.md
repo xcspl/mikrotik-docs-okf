@@ -2,7 +2,7 @@
 type: Reference
 title: "Files"
 description: "File menu shows all user space files on the router. It is possible to create a new file, directory, edit file content, delete file or directory. If RouterOS \".npk\" package is uploaded, the file menu will also show packag."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

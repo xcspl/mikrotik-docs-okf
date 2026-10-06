@@ -2,7 +2,7 @@
 type: Reference
 title: "MikroTik mobile app"
 description: "The application is available for both Android and iOS operating systems. It is a good way to configure a new device, as it provides a simple and user- friendly setup screen for the most basic settings of your new router."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

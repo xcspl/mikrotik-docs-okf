@@ -2,7 +2,7 @@
 type: Reference
 title: "MPLS Overview"
 description: "MPLS stands for MultiProtocol Label Switching. It kind of replaces IP routing-packet forwarding decision (outgoing interface and next-hop router) is no longer based on fields in IP header (usually destination address) an."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

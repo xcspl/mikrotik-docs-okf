@@ -2,7 +2,7 @@
 type: Reference
 title: "ZeroTier"
 description: "The ZeroTier network hypervisor is a self-contained network virtualization engine that implements an Ethernet virtualization layer similar to <uVXLAN</u built atop a cryptographically secure global peer-to-peer network. ."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

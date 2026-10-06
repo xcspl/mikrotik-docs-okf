@@ -2,7 +2,7 @@
 type: Reference
 title: "RouterBOARD"
 description: "upgrade-RouterOS upgrades also include new RouterBOOT version files, but they have to be applied manually. This line shows if a new firmware ( RouterBOOT file has been found in the device. The file can either be included."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

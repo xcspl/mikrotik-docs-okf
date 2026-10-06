@@ -2,7 +2,7 @@
 type: Reference
 title: "Configuring outdoor CPE to AP links"
 description: "It is no secret, that Wi-Fi range for indoor access points is limited. It is affected, mostly, by local regulations, which restrict device's output power (depending on which frequency channel is used). A typical indoor W."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

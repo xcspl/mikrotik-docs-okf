@@ -2,7 +2,7 @@
 type: Reference
 title: "VPLS"
 description: "The virtual Private Lan Service (VPLS) interface can be considered a tunnel interface just like EoIP interface. To achieve transparent ethernet segment the forwarding between customer sites."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

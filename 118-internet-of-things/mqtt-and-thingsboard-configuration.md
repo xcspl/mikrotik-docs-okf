@@ -2,7 +2,7 @@
 type: Reference
 title: "MQTT and ThingsBoard configuration"
 description: "One of the many cloud services that you can use to monitor information that is sent by an MQTT publisher is Thingsboard. This article will demonstrate how to configure both Thingsboard and RouterOS to publish the data us."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

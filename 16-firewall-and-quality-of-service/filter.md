@@ -2,7 +2,7 @@
 type: Reference
 title: "Filter"
 description: "Firewall filters are used to allow or block specific packets forwarded to your local network, originating from your router, or destined to the router."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

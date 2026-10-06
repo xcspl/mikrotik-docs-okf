@@ -2,7 +2,7 @@
 type: Reference
 title: "Wireless Station Modes"
 description: "Wireless interface in any of station modes will search for acceptable access point (AP) and connect to it. The connection between station and AP will behave in slightly different way depending on type of station mode use."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

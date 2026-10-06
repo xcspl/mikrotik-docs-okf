@@ -2,7 +2,7 @@
 type: Reference
 title: "NAME TYPE RADIO FREQ-OFF BANDWIDTH FREQ SPREAD-FACTOR DATARATE 0 gateway-0 MSF radio1 -400000 125_kHz 868.1"
 description: "radio1 is selected to be used for channel #0 and it is configured with center-freq=868500000 (868500000 Hz or 868.5 MHz)."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

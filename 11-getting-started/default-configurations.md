@@ -2,7 +2,7 @@
 type: Reference
 title: "Default configurations"
 description: "You can run the command /system default-configuration print to see the exact applied default configuration commands."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

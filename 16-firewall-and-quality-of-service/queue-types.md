@@ -2,7 +2,7 @@
 type: Reference
 title: "Queue types"
 description: "Queue types are like templates for classless queuing disciplines-the algorithms that control how packets are dropped or queued up in a memory buffer before further transmission. They are crucial for ensuring good Quality."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

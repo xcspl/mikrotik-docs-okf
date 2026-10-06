@@ -2,7 +2,7 @@
 type: Reference
 title: "MPLS MTU, Forwarding and Label Bindings"
 description: "From the /mpls settings menu it is possible to assign specific dynamic label range and TTL propagation. If for some reason static label mapping is used then the dynamic range can be adjusted to exclude statically assigne."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

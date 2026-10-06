@@ -11,7 +11,23 @@ handling:
 
 # MikroTik RouterOS documentation
 
-The MikroTik RouterOS manual (PDF of 2026-05-26) as an OKF bundle.
+The MikroTik RouterOS manual as an OKF bundle.
+
+**Snapshot date: 2026-05-26 — the content below is NOT current.** Everything in
+the chapters and appendix is a conversion of MikroTik's RouterOS documentation
+PDF dated 2026-05-26, exported from the now-**frozen** legacy
+`help.mikrotik.com` wiki; every content doc is stamped `timestamp: '2026-05-26'`
+(the source date, not the writing date). MikroTik's current, versioned manual is
+at <https://manual.mikrotik.com/>. Read
+[Provenance and known limits](provenance.md) before relying on any fact, and
+[RouterOS updates and current state (2026-10)](updates-2026-10.md) for what has
+changed since — security advisories, v7 behaviour, containers, ZeroTier,
+WireGuard, IPv6, OSPFv3.
+
+# About
+
+* [Provenance and known limits](provenance.md) - What this bundle is, why the content is dated 2026-05-26, the frozen-source warning, and the anydoc table-collapse / image-read caveats.
+* [RouterOS updates and current state (2026-10)](updates-2026-10.md) - What changed after the snapshot: current stable/LTS versions, the September 2026 security advisories, v7-vs-v6 differences, and the state of containers, ZeroTier, WireGuard, IPv6 and OSPFv3.
 
 # Chapters
 

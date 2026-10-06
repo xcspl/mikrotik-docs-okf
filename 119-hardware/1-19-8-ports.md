@@ -2,7 +2,7 @@
 type: Reference
 title: "Ports"
 description: "There are many ways how to use ports on the routers. Most obvious one is to use serial port for initial RouterOS configuration after installation (by default serial0 is used by serial-terminal)."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

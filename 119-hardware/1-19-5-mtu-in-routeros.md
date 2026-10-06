@@ -2,7 +2,7 @@
 type: Reference
 title: "MTU in RouterOS"
 description: "It is the sole responsibility of administrators to configure the Maximum Transmission Unit (MTU) such that intended services and applications can be successfully implemented in the network. In other words-administrators ."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

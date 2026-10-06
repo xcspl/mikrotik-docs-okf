@@ -2,7 +2,7 @@
 type: Reference
 title: "How to Purchase a RouterOS license key"
 description: "6. Select Optional Key Features: Choose any additional features you might need for your key."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

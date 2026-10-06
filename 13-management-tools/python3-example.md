@@ -2,7 +2,7 @@
 type: Reference
 title: "Python3 Example"
 description: "These examples are meant for you to make your own Python3 based RouterOS API client, they are just templates, or starting points. Use them at your own risk."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "VETH"
 description: "VETH (Virtual Ethernet) is a special type of virtual network interface primarily used to provide network connectivity for containers. It acts as a virtual Ethernet port that connects RouterOS to a container, allowing the."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

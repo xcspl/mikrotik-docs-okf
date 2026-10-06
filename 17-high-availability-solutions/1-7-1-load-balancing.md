@@ -2,7 +2,7 @@
 type: Reference
 title: "Load Balancing"
 description: "Network load balancing is the ability to balance traffic across two or more links without using dynamic routing protocols."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "Wireless VLAN Trunk"
 description: "You can enable RSTP if it is required, but generally, RSTP is not required for PtP links since there should not be any way for a loop to occur."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

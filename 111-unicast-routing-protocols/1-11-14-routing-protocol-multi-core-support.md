@@ -2,7 +2,7 @@
 type: Reference
 title: "Routing Protocol Multi-core Support"
 description: "RouterOS v7 is capable of splitting tasks between multiple processes. There is one \"main\" task, which can start/stop sub-tasks and process data between those sub-tasks. Each sub-task can allocate \"private\" (only accessib."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

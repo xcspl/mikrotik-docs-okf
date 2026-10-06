@@ -2,7 +2,7 @@
 type: Reference
 title: "Wake on LAN"
 description: "The Wake on LAN tool can send a UDP Magic Packet to the Broadcast address with a selected MAC address embedded in it."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

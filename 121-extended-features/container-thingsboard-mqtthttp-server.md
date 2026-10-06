@@ -2,7 +2,7 @@
 type: Reference
 title: "Container-ThingsBoard MQTT/HTTP server"
 description: "A lot of users need a server that is able to gather the data, store it and display it in a way it is easy to understand. This is where a platform like ThingsBoard can come into play."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

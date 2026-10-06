@@ -2,7 +2,7 @@
 type: Reference
 title: "Virtual Routing and Forwarding-VRF"
 description: "It is possible to set up vrf-lite setups or use multi-protocol BGP with VPNv4 address family to distribute routes from VRF routing tables-not only to other routers, but also to different routing tables in the router itse."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

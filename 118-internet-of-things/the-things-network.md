@@ -2,7 +2,7 @@
 type: Reference
 title: "The Things Network"
 description: "RouterOS manual, section Internet of Things — The Things Network."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

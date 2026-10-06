@@ -2,7 +2,7 @@
 type: Reference
 title: "Ethernet"
 description: "For additional information about MikroTik SFP and QSFP type of interfaces and their compatibility, please refer to wired interface compatibility page."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "Neighbor discovery"
 description: "Shows the list of protocols the neighbor has been discovered by. The property is available since RouterOS version 7.7."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

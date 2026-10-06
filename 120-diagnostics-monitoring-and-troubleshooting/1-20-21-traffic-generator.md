@@ -2,7 +2,7 @@
 type: Reference
 title: "Traffic Generator"
 description: "The tool can generate and send RAW packets over specific ports. It also collects latency and jitter values, TX/RX rates, counts lost packets, and detects Out-of-Order (OOO) packets."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf

@@ -2,7 +2,7 @@
 type: Reference
 title: "CAPsMAN"
 description: "mac-format (string; Default: X Controls how the MAC address of the client is encoded by Access Point in the User-Name attribute of the MAC X:XX:XX:XX:XX:XX) authentication and MAC accounting RADIUS requests."
-timestamp: '2026-10-06'
+timestamp: '2026-05-26'
 status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf
