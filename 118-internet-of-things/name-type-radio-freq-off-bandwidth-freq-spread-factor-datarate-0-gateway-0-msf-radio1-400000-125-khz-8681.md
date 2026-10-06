@@ -7,7 +7,7 @@ status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf
 sources:
-  - resource: https://manual.mikrotik.com/docs/introduction/
+  - resource: https://help.mikrotik.com/docs/spaces/ROS/pages/328059/RouterOS
 ---
 
 # NAME TYPE RADIO FREQ-OFF BANDWIDTH FREQ SPREAD-FACTOR DATARATE 0 gateway-0 MSF radio1 -400000 125_kHz 868.1

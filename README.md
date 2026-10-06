@@ -45,8 +45,10 @@ the house standard: <https://github.com/xcspl/xyno-okf-guide>.
 
 ## How it was built
 
-1. MikroTik's RouterOS PDF (1952 pages) → Markdown with
-   [anydoc](https://github.com/firecrawl/anydoc) 0.2.4.
+1. MikroTik's RouterOS documentation PDF (1952 pages) → Markdown with
+   [anydoc](https://github.com/firecrawl/anydoc) 0.2.4. The PDF was obtained via
+   the legacy [RouterOS page](https://help.mikrotik.com/docs/spaces/ROS/pages/328059/RouterOS)
+   → MikroTik's Box share [*doc_export*](https://box.mikrotik.com/d/df76f0d495284eb1b6a1/).
 2. Split into section docs using the manual's own two-level table of contents
    (chapter → section), one doc per section, frontmatter generated per doc.
 3. anydoc's per-page scan check refused 20 pages; those were rendered to JPEG,

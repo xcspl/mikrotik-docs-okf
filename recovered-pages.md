@@ -7,7 +7,7 @@ status: active
 tags: [routeros, mikrotik, appendix, ocr, source-pages]
 resource: ~/Downloads/ROS-260526-1445-796.pdf
 sources:
-  - resource: https://manual.mikrotik.com/docs/introduction/
+  - resource: https://help.mikrotik.com/docs/spaces/ROS/pages/328059/RouterOS
 ---
 
 # Recovered pages (OCR-flagged)

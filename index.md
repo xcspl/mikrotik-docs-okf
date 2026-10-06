@@ -14,8 +14,9 @@ handling:
 The MikroTik RouterOS manual as an OKF bundle.
 
 **Base: MikroTik's RouterOS documentation of 2026-05-26** — the frozen legacy
-`help.mikrotik.com` export — which remains current for the great majority of
-RouterOS (command reference, procedures, concepts). Base docs are stamped
+`help.mikrotik.com` export (from [page 328059](https://help.mikrotik.com/docs/spaces/ROS/pages/328059/RouterOS) →
+MikroTik's Box share *doc_export*) — which remains current for the great majority
+of RouterOS (command reference, procedures, concepts). Base docs are stamped
 `timestamp: '2026-05-26'`, the source's capture date. Everything added or changed
 since is carried in [Current state](current-state.md) through **7.24.5**; the
 live, versioned manual is <https://manual.mikrotik.com/>. Conversion caveats are

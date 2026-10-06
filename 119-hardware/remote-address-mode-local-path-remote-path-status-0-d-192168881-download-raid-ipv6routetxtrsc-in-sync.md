@@ -7,7 +7,7 @@ status: active
 tags: [routeros, mikrotik, networking]
 resource: ~/Downloads/ROS-260526-1445-796.pdf
 sources:
-  - resource: https://manual.mikrotik.com/docs/introduction/
+  - resource: https://help.mikrotik.com/docs/spaces/ROS/pages/328059/RouterOS
 ---
 
 # REMOTE-ADDRESS MODE LOCAL-PATH REMOTE-PATH STATUS 0 D 192.168.88.1 download RAID/ /ipv6route.txt.rsc in sync

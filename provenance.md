@@ -7,6 +7,8 @@ status: active
 tags: [routeros, mikrotik, provenance, source, limitations]
 resource: ~/Downloads/ROS-260526-1445-796.pdf
 sources:
+  - resource: https://help.mikrotik.com/docs/spaces/ROS/pages/328059/RouterOS
+  - resource: https://box.mikrotik.com/d/df76f0d495284eb1b6a1/
   - resource: https://help.mikrotik.com/docs/spaces/ROS/pages/115736772/Upgrading+to+v7
   - resource: https://manual.mikrotik.com/docs/introduction/
   - resource: https://mikrotik.com/download/changelogs
@@ -20,6 +22,21 @@ The MikroTik **RouterOS documentation PDF dated 2026-05-26** (1952 pages),
 converted to Markdown with [anydoc](https://github.com/firecrawl/anydoc) 0.2.4 and split into this
 bundle. Every content doc carries `timestamp: '2026-05-26'` — **that is the date
 of the source, not of the writing** — and the `resource` field points at the PDF.
+
+**Where the PDF came from.** The file `ROS-260526-1445-796.pdf` was downloaded
+from MikroTik's own distribution link, which the legacy documentation page for
+RouterOS points to:
+
+1. <https://help.mikrotik.com/docs/spaces/ROS/pages/328059/RouterOS> — the
+   RouterOS landing page in the legacy `ROS` space (pageId 328059, last updated
+   2026-06-03), itself carrying the *"this documentation site has been frozen"*
+   notice;
+2. → <https://box.mikrotik.com/d/df76f0d495284eb1b6a1/> — MikroTik's Box share
+   titled *doc_export*, holding the exported documentation;
+3. → `ROS-260526-1445-796.pdf`.
+
+Every base doc's `sources` field therefore cites the legacy RouterOS page
+(328059) as its origin.
 
 ## Base export, and what "current" means here
 
