@@ -4,18 +4,18 @@ MikroTik **RouterOS** documentation as an [Open Knowledge Format (OKF)](https://
 bundle — plain Markdown, indexed for people and agents, following the
 [house OKF standard](https://github.com/xcspl/xyno-okf-guide) (house 0.3 on OKF v0.2).
 
-> ## ⚠️ Snapshot, not current documentation
+> ## Status — current for RouterOS; base export dated 2026-05-26
 >
-> Everything here is a conversion of MikroTik's RouterOS documentation **PDF
-> dated 2026-05-26**, exported from the **now-frozen** legacy
-> `help.mikrotik.com` wiki. The content is accurate **as of that date and no
-> later**. MikroTik's current, versioned manual is
-> **<https://manual.mikrotik.com/>**.
+> The body is a conversion of MikroTik's RouterOS documentation of
+> **2026-05-26** (the legacy `help.mikrotik.com` export). RouterOS changes
+> **incrementally**, so the great majority of this content — command reference,
+> procedures, concepts — **is still current**. Only newer behaviour and newly
+> added features have moved on, and those are carried in
+> **[Current state (up to 7.24.5)](current-state.md)**.
 >
-> **[Provenance and known limits](provenance.md)** explains what this is and
-> where not to trust it. **[RouterOS updates and current state (2026-10)](updates-2026-10.md)**
-> records what changed since — security advisories, v7 behaviour, containers,
-> ZeroTier, WireGuard, IPv6, OSPFv3.
+> **[Provenance and known limits](provenance.md)** explains why the base docs are
+> dated 2026-05-26 and the conversion's caveats. MikroTik's live, versioned
+> manual: **<https://manual.mikrotik.com/>**.
 >
 > RouterOS documentation © MikroTik; this is a format conversion for reference,
 > not an official MikroTik publication.
@@ -25,8 +25,8 @@ bundle — plain Markdown, indexed for people and agents, following the
 | Path | What |
 |---|---|
 | [`index.md`](index.md) | Bundle root — self-identification, entry contract, and the full listing. **Start here.** |
-| [`provenance.md`](provenance.md) | What the bundle is, when it was captured, and its limits. |
-| [`updates-2026-10.md`](updates-2026-10.md) | Current state as of 2026-10-06, sourced and dated. |
+| [`provenance.md`](provenance.md) | Base export, dating, and the conversion's caveats. |
+| [`current-state.md`](current-state.md) | The now: versions, security, per-release additions (7.20 → 7.24.5), containers and the app store, ZeroTier, WireGuard, IPv6, OSPFv3, BGP, MLAG, ACME. |
 | 21 chapter directories | The manual's own chapters, e.g. `12-ipv4-and-ipv6-fundamentals/`. |
 | 307 section docs | One `Reference` doc per manual section. |
 | [`recovered-pages.md`](recovered-pages.md) | The 20 pages the converter refused, with page images and content read from them. |

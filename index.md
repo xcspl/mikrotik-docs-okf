@@ -13,21 +13,18 @@ handling:
 
 The MikroTik RouterOS manual as an OKF bundle.
 
-**Snapshot date: 2026-05-26 — the content below is NOT current.** Everything in
-the chapters and appendix is a conversion of MikroTik's RouterOS documentation
-PDF dated 2026-05-26, exported from the now-**frozen** legacy
-`help.mikrotik.com` wiki; every content doc is stamped `timestamp: '2026-05-26'`
-(the source date, not the writing date). MikroTik's current, versioned manual is
-at <https://manual.mikrotik.com/>. Read
-[Provenance and known limits](provenance.md) before relying on any fact, and
-[RouterOS updates and current state (2026-10)](updates-2026-10.md) for what has
-changed since — security advisories, v7 behaviour, containers, ZeroTier,
-WireGuard, IPv6, OSPFv3.
+**Base: MikroTik's RouterOS documentation of 2026-05-26** — the frozen legacy
+`help.mikrotik.com` export — which remains current for the great majority of
+RouterOS (command reference, procedures, concepts). Base docs are stamped
+`timestamp: '2026-05-26'`, the source's capture date. Everything added or changed
+since is carried in [Current state](current-state.md) through **7.24.5**; the
+live, versioned manual is <https://manual.mikrotik.com/>. Conversion caveats are
+in [Provenance and known limits](provenance.md).
 
 # About
 
-* [Provenance and known limits](provenance.md) - What this bundle is, why the content is dated 2026-05-26, the frozen-source warning, and the anydoc table-collapse / image-read caveats.
-* [RouterOS updates and current state (2026-10)](updates-2026-10.md) - What changed after the snapshot: current stable/LTS versions, the September 2026 security advisories, v7-vs-v6 differences, and the state of containers, ZeroTier, WireGuard, IPv6 and OSPFv3.
+* [Provenance and known limits](provenance.md) - What the base export is, why its docs are dated 2026-05-26, and the anydoc table-collapse / image-read caveats.
+* [Current state (RouterOS up to 7.24.5)](current-state.md) - The now: versions, the September 2026 security advisories, what each release added (BGP, MLAG, the app store, ACME, device-mode), and the state of containers, ZeroTier, WireGuard, IPv6 and OSPFv3.
 
 # Chapters
 
