@@ -17,7 +17,7 @@ sources:
 ## What this is
 
 The MikroTik **RouterOS documentation PDF dated 2026-05-26** (1952 pages),
-converted to Markdown with [anydoc](../../../anydoc) 0.2.4 and split into this
+converted to Markdown with [anydoc](https://github.com/firecrawl/anydoc) 0.2.4 and split into this
 bundle. Every content doc carries `timestamp: '2026-05-26'` — **that is the date
 of the source, not of the writing** — and the `resource` field points at the PDF.
 
