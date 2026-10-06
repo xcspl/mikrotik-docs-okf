@@ -11,7 +11,7 @@
 * [VLAN](1-5-8-vlan.md) - 1.5.8 VLAN
 * [VXLAN](1-5-9-vxlan.md) - 1.5.9 VXLAN
 * [Bridging and Switching Case Studies](1-5-10-bridging-and-switching-case-studies.md) - 1.5.10 Bridging and Switching Case Studies
-* [Basic VLAN switching](basic-vlan-switching.md) -  Basic VLAN switching
+* [Basic VLAN switching](basic-vlan-switching.md) - Per-chip VLAN switching methods: HW-offloaded bridge VLAN filtering (Prestera/RTL8367/88E6xxx/MT7621-class, v7+), the CRS1xx/2xx switch-chip method (**no** HW-offloaded VLAN filtering there — use `/interface ethernet switch`), legacy switch-chip VLANs, CPU-only bridging
 * [Bridge IGMP/MLD snooping](bridge-igmpmld-snooping.md) -  Bridge IGMP/MLD snooping
 * [Bridge VLAN Table](bridge-vlan-table.md) -  Bridge VLAN Table
 * [Controller Bridge and Port Extender](controller-bridge-and-port-extender.md) -  Controller Bridge and Port Extender

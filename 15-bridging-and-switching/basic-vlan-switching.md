@@ -18,42 +18,96 @@ Introduction MikroTik devices with Marvell Prestera switch and RTL8367, 88E6393X
 
 Many MikroTik devices come with built-in switch chips that usually have an option to do VLAN switching on a hardware level, this means that you can achieve wire-speed performance using VLANs if a proper configuration method is used. The configuration method changes across different models, this guide will focus on setting up a basic trunk/access port with a management port from the trunk port using different devices with the right configuration to achieve the best performance and to fully utilize the available hardware components.
 
-MikroTik devices with Marvell Prestera switch and RTL8367, 88E6393X, <u>88E6191X, 88E6190, MT7621, MT7531 and EN7523 switch chips</u>
+## MikroTik devices with Marvell Prestera switch and RTL8367, 88E6393X, <u>88E6191X, 88E6190, MT7621, MT7531 and EN7523 switch chips</u>
 
-/interface bridge add name=bridge1 frame-types=admit-only-vlan-tagged /interface bridge port add bridge=bridge1 interface=ether1 frame-types=admit-only-vlan-tagged add bridge=bridge1 interface=ether2 pvid=20 frame-types=admit-only-untagged-and-priority-tagged add bridge=bridge1 interface=ether3 pvid=30 frame-types=admit-only-untagged-and-priority-tagged /interface bridge vlan add bridge=bridge1 tagged=ether1 vlan-ids=20 add bridge=bridge1 tagged=ether1 vlan-ids=30 add bridge=bridge1 tagged=ether1,bridge1 vlan-ids=99 /interface vlan add interface=bridge1 vlan-id=99 name=MGMT /ip address add address=192.168.99.1/24 interface=MGMT /interface bridge set bridge1 vlan-filtering=yes
+These chips support **hardware-offloaded bridge VLAN filtering** — the bridge with `vlan-filtering=yes` is the correct (and fastest) method. RTL8367, 88E6393X, 88E6191X, 88E6190, MT7621, MT7531, EN7523 switch chips can use HW offloaded vlan-filtering since RouterOS v7.
+
+```
+/interface bridge add name=bridge1 frame-types=admit-only-vlan-tagged
+/interface bridge port add bridge=bridge1 interface=ether1 frame-types=admit-only-vlan-tagged
+add bridge=bridge1 interface=ether2 pvid=20 frame-types=admit-only-untagged-and-priority-tagged
+add bridge=bridge1 interface=ether3 pvid=30 frame-types=admit-only-untagged-and-priority-tagged
+/interface bridge vlan add bridge=bridge1 tagged=ether1 vlan-ids=20
+add bridge=bridge1 tagged=ether1 vlan-ids=30
+add bridge=bridge1 tagged=ether1,bridge1 vlan-ids=99
+/interface vlan add interface=bridge1 vlan-id=99 name=MGMT
+/ip address add address=192.168.99.1/24 interface=MGMT
+/interface bridge set bridge1 vlan-filtering=yes
+```
 
 More detailed examples can be found here.
 
-RTL8367, 88E6393X, 88E6191X, 88E6190, MT7621, MT7531, EN7523 switch chips can use HW offloaded vlan-filtering since RouterOS v7.
-
-Bridge ports with frame-types set to admit-all or admit-only-untagged-and-priority-tagged will be automatically added as untagged ports for the pvid VLAN.
+Bridge ports with frame-types set to admit-all or admit-only-untagged-and-priority-tagged will be automatically added as untagged ports for the pvid VLAN.
 
 ## <u>CRS1xx/CRS2xx series switches</u>
 
-/interface bridge add name=bridge1 /interface bridge port add bridge=bridge1 interface=ether1 add bridge=bridge1 interface=ether2 add bridge=bridge1 interface=ether3 /interface ethernet switch ingress-vlan-translation add ports=ether2 customer-vid=0 new-customer-vid=20 add ports=ether3 customer-vid=0 new-customer-vid=30 /interface ethernet switch egress-vlan-tag add tagged-ports=ether1 vlan-id=20 add tagged-ports=ether1 vlan-id=30 add tagged-ports=ether1,switch1-cpu vlan-id=99 /interface ethernet switch vlan add ports=ether1,ether2 vlan-id=20 add ports=ether1,ether3 vlan-id=30 add ports=ether1,switch1-cpu vlan-id=99 /interface vlan add interface=bridge1 vlan-id=99 name=MGMT /ip address add address=192.168.99.1/24 interface=MGMT /interface ethernet switch set drop-if-invalid-or-src-port-not-member-of-vlan-on-ports=ether1,ether2,ether3
+> **These switches cannot combine bridge VLAN filtering with hardware offloading.** They are not in the HW-offload list above: enabling `vlan-filtering=yes` on the bridge does work, but the filtering then runs on the CPU and throughput drops (see the Bridge Hardware Offloading compatibility table in [Bridging and Switching](bridging-and-switching.md)). On CRS1xx/CRS2xx, VLANs are instead configured **on the switch chip directly** through `/interface ethernet switch` (`ingress-vlan-translation`, `egress-vlan-tag`, `vlan`), while ports still sit on a hardware-offloaded bridge. The example below builds the same trunk/access/management layout as the section above, using the switch-chip method:
 
-More detailed examples can be found here.
+```
+/interface bridge add name=bridge1
+/interface bridge port add bridge=bridge1 interface=ether1
+add bridge=bridge1 interface=ether2
+add bridge=bridge1 interface=ether3
+/interface ethernet switch ingress-vlan-translation add ports=ether2 customer-vid=0 new-customer-vid=20
+add ports=ether3 customer-vid=0 new-customer-vid=30
+/interface ethernet switch egress-vlan-tag add tagged-ports=ether1 vlan-id=20
+add tagged-ports=ether1 vlan-id=30
+add tagged-ports=ether1,switch1-cpu vlan-id=99
+/interface ethernet switch vlan add ports=ether1,ether2 vlan-id=20
+add ports=ether1,ether3 vlan-id=30
+add ports=ether1,switch1-cpu vlan-id=99
+/interface vlan add interface=bridge1 vlan-id=99 name=MGMT
+/ip address add address=192.168.99.1/24 interface=MGMT
+/interface ethernet switch set drop-if-invalid-or-src-port-not-member-of-vlan-on-ports=ether1,ether2,ether3
+```
+
+More detailed examples can be found in [CRS1xx/2xx series switches examples](crs1xx2xx-series-switches-examples.md), and the switch-chip menus are documented in [CRS1xx and 2xx series switches](1-5-2-crs1xx-and-2xx-series-switches.md). Upgrading the device to RouterOS v7 does **not** change this: newer RouterOS does not fold CRS1xx/CRS2xx VLAN handling into the bridge.
 
 ## <u>Other devices with a built-in switch chip</u>
 
-/interface bridge add name=bridge1 /interface bridge port add bridge=bridge1 interface=ether1 add bridge=bridge1 interface=ether2 add bridge=bridge1 interface=ether3 /interface ethernet switch vlan add ports=ether1,ether2 switch=switch1 vlan-id=20 add ports=ether1,ether3 switch=switch1 vlan-id=30 add ports=ether1,switch1-cpu switch=switch1 vlan-id=99 /interface vlan add interface=bridge1 vlan-id=99 name=MGMT /ip address add address=192.168.99.1/24 interface=MGMT /interface ethernet switch port set ether1 vlan-mode=secure vlan-header=add-if-missing set ether2 vlan-mode=secure vlan-header=always-strip default-vlan-id=20 set ether3 vlan-mode=secure vlan-header=always-strip default-vlan-id=30 set switch1-cpu vlan-header=leave-as-is vlan-mode=secure
+```
+/interface bridge add name=bridge1
+/interface bridge port add bridge=bridge1 interface=ether1
+add bridge=bridge1 interface=ether2
+add bridge=bridge1 interface=ether3
+/interface ethernet switch vlan add ports=ether1,ether2 switch=switch1 vlan-id=20
+add ports=ether1,ether3 switch=switch1 vlan-id=30
+add ports=ether1,switch1-cpu switch=switch1 vlan-id=99
+/interface vlan add interface=bridge1 vlan-id=99 name=MGMT
+/ip address add address=192.168.99.1/24 interface=MGMT
+/interface ethernet switch port set ether1 vlan-mode=secure vlan-header=add-if-missing
+set ether2 vlan-mode=secure vlan-header=always-strip default-vlan-id=20
+set ether3 vlan-mode=secure vlan-header=always-strip default-vlan-id=30
+set switch1-cpu vlan-header=leave-as-is vlan-mode=secure
+```
 
 More detailed examples can be found here.
 
-Not all devices with a switch chip are capable of VLAN switching on a hardware level, check the supported features for each switch chip, the compatibility table can be found here. If a device has VLAN table support, then it is capable of VLAN switching using the built-in switch chip. You can check the device's switch chip either in the provided link or by using /interface ethernet switch print
+Not all devices with a switch chip are capable of VLAN switching on a hardware level, check the supported features for each switch chip, the compatibility table can be found in [Bridging and Switching](bridging-and-switching.md). If a device has VLAN table support, then it is capable of VLAN switching using the built-in switch chip. You can check the device's switch chip either in the provided link or by using `/interface ethernet switch print`
 
-On QCA8337 and Atheros8327 switch chips, a default vlan-header=leave-as-is property should be used. The switch chip will determine which ports are access ports by using the default-vlan-id property. The default-vlan-id should only be used on access/hybrid ports to specify which VLAN the untagged ingress traffic is assigned to.
+On QCA8337 and Atheros8327 switch chips, a default vlan-header=leave-as-is property should be used. The switch chip will determine which ports are access ports by using the default-vlan-id property. The default-vlan-id should only be used on access/hybrid ports to specify which VLAN the untagged ingress traffic is assigned to.
 
 This type of configuration should be used on RouterBOARD series devices, this includes RB4xx, RB9xx, RB2011, RB3011, hAP, hEX, cAP, and other devices.
 
-By default, the bridge interface is configured with protocol-mode set to rstp. For some devices, this can disable hardware offloading because specific switch chips do not support this feature. See the Bridge Hardware Offloading section with supported features.
+By default, the bridge interface is configured with protocol-mode set to rstp. For some devices, this can disable hardware offloading because specific switch chips do not support this feature. See the Bridge Hardware Offloading section with supported features.
 
-For devices that have multiple switch chips (for example, RB2011, RB3011, RB1100), each switch chip is only able to switch VLAN traffic between ports that are on the same switch chip, VLAN filtering will not work on a hardware level between ports that are on different switch chips, this means you should not add all ports to a single bridge if you are intending to use VLAN filtering using the switch chip, VLANs between switch chips will not get filtered. You can connect a single cable between both switch chips to work around this hardware limitation, another option is to use Bridge VLAN Filtering, but it disables hardware offloading (and lowers the total throughput).
+For devices that have multiple switch chips (for example, RB2011, RB3011, RB1100), each switch chip is only able to switch VLAN traffic between ports that are on the same switch chip, VLAN filtering will not work on a hardware level between ports that are on different switch chips, this means you should not add all ports to a single bridge if you are intending to use VLAN filtering using the switch chip, VLANs between switch chips will not get filtered. You can connect a single cable between both switch chips to work around this hardware limitation, another option is to use Bridge VLAN Filtering, but it disables hardware offloading (and lowers the total throughput).
 
 ## <u>Other devices without a built-in switch chip</u>
 
 It is possible to do VLAN filtering using the CPU, there are multiple ways to do it, but it is highly recommended to use bridge VLAN filtering.
 
-/interface bridge add name=bridge1 frame-types=admit-only-vlan-tagged /interface bridge port add bridge=bridge1 interface=ether1 frame-types=admit-only-vlan-tagged add bridge=bridge1 interface=ether2 pvid=20 frame-types=admit-only-untagged-and-priority-tagged add bridge=bridge1 interface=ether3 pvid=30 frame-types=admit-only-untagged-and-priority-tagged /interface bridge vlan add bridge=bridge1 tagged=ether1 vlan-ids=20 add bridge=bridge1 tagged=ether1 vlan-ids=30 add bridge=bridge1 tagged=ether1,bridge1 vlan-ids=99 /interface vlan add interface=bridge1 vlan-id=99 name=MGMT /ip address add address=192.168.99.1/24 interface=MGMT /interface bridge set bridge1 vlan-filtering=yes
+```
+/interface bridge add name=bridge1 frame-types=admit-only-vlan-tagged
+/interface bridge port add bridge=bridge1 interface=ether1 frame-types=admit-only-vlan-tagged
+add bridge=bridge1 interface=ether2 pvid=20 frame-types=admit-only-untagged-and-priority-tagged
+add bridge=bridge1 interface=ether3 pvid=30 frame-types=admit-only-untagged-and-priority-tagged
+/interface bridge vlan add bridge=bridge1 tagged=ether1 vlan-ids=20
+add bridge=bridge1 tagged=ether1 vlan-ids=30
+add bridge=bridge1 tagged=ether1,bridge1 vlan-ids=99
+/interface vlan add interface=bridge1 vlan-id=99 name=MGMT
+/ip address add address=192.168.99.1/24 interface=MGMT
+/interface bridge set bridge1 vlan-filtering=yes
+```
 
 More detailed examples can be found here.
